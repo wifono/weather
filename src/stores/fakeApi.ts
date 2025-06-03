@@ -33,7 +33,7 @@ export const useFakeApiStore = defineStore("FakeApi", {
     ////// Ak by som bol v reálnom prostredí, dáta by som samozrejme získaval z API, napr. :
     // async getSensors() {
     //   try {
-    ////// api preto, lebo axios by mal imporovaný so súboru kde by som ho inicializoval, aby sa využívala jedna a tá istá inštancia - užitočné napríklad pre nastavovanie tokenu
+    ////// api preto, lebo axios by som mal imporovaný zo súboru kde by som ho inicializoval, aby sa využívala jedna a tá istá inštancia - užitočné napríklad pre nastavovanie tokenu
     //   const req = await api.get("/sensors")
     //   this.sensors = req.data
     //   return
